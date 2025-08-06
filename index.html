@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Added Font Awesome CDN -->
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="sidebar-content">
+        <div class="head">
+          <h1>
+            <i class="fas fa-th-large dash-icon"></i>
+            Dashboard
+          </h1>
+        </div>
+        <div class="nav-top">
+          <div class="sidebar-link active-link">
+            <i class="fas fa-home"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="sidebar-link">
+            <i class="fas fa-user"></i>
+            <a href="#">Profile</a>
+          </div>
+          <div class="sidebar-link">
+            <i class="fas fa-comments"></i>
+            <a href="#">Messages</a>
+          </div>
+          <div class="sidebar-link">
+            <i class="fas fa-history"></i>
+
+            <a href="#">History</a>
+          </div>
+          <div class="sidebar-link">
+            <i class="fas fa-tasks"></i>
+
+            <a href="#">Tasks</a>
+          </div>
+          <div class="sidebar-link">
+            <i class="fas fa-users"></i>
+
+            <a href="#">Communities</a>
+          </div>
+        </div>
+        <div class="nav-bottom">
+          <div class="sidebar-link">
+            <i class="fas fa-cog"></i>
+
+            <a href="#">Settings</a>
+          </div>
+          <div class="sidebar-link">
+            <i class="fas fa-question-circle"></i>
+
+            <a href="#">Support</a>
+          </div>
+          <div class="sidebar-link">
+            <i class="fas fa-shield-alt"></i>
+
+            <a href="#">Privacy</a>
+          </div>
+        </div>
+        <div class="footer">
+          <p>
+            My repo here:
+            <a
+              href="https://github.com/charmasv/Admin-Dashboard"
+              target="_blank"
+              class="octocat"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="search">
+        <i class="fas fa-search"></i>
+
+        <input type="text" placeholder="Search..." />
+      </div>
+      <div class="top-right">
+        <i class="fas fa-bell"></i>
+
+        <img src="./userpropic.jpg" alt="User Avatar" class="user-logo" />
+        <span>Your Profile</span>
+      </div>
+      <div class="welcome">
+        <img src="./userpropic.jpg" alt="User Avatar" />
+        <div>
+          <p class="hi">Hi there,</p>
+          <h2 class="name">charmaine masvora (<span class="username">@charmi</span>)</h2>
+        </div>
+      </div>
+      <div class="buttons">
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+      </div>
+    </div>
+    <div class="content">
+      <div class="projects">
+        <h3>Your Projects</h3>
+        <div class="cards-container">
+          <div class="card">
+            <h4>My First Microservice</h4>
+            <p class="text">
+              Finally detached the monolithic backend into tiny, perfectly
+              isolated services. Now if only they'd talk to each other without a
+              thousand Kafka topics...
+            </p>
+            <div class="card-actions">
+              <i class="far fa-star"></i>
+
+              <i class="far fa-eye"></i>
+
+              <i class="fas fa-code-branch"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Bug-Free Frontend (LOL)</h4>
+            <p class="text">
+              A daring attempt to build a React app without any useState bugs.
+              Spoilers: it's not going well. Send help and Redux patterns.
+            </p>
+            <div class="card-actions">
+              <i class="far fa-star"></i>
+
+              <i class="far fa-eye"></i>
+
+              <i class="fas fa-code-branch"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h4>SQL vs. NoSQL Debate Simulator</h4>
+            <p class="text">
+              A highly controversial project designed to settle database
+              arguments once and for all. Current status: endless loops of "it
+              depends".
+            </p>
+            <div class="card-actions">
+              <i class="far fa-star"></i>
+
+              <i class="far fa-eye"></i>
+
+              <i class="fas fa-code-branch"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h4>My Side Project That I Swear I'll Finish</h4>
+            <p class="text">
+              It's going to revolutionize the industry! Just need to fix this
+              one CSS alignment issue and then, you know, the entire backend.
+            </p>
+            <div class="card-actions">
+              <i class="far fa-star"></i>
+
+              <i class="far fa-eye"></i>
+
+              <i class="fas fa-code-branch"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h4>"Hello World" in Every Language</h4>
+            <p class="text">
+              Proof that I know more than just JavaScript. So far, 27 languages
+              down, only a few thousand more to go. My RAM is crying.
+            </p>
+            <div class="card-actions">
+              <i class="far fa-star"></i>
+
+              <i class="far fa-eye"></i>
+
+              <i class="fas fa-code-branch"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h4>AI That Writes My Commit Messages</h4>
+            <p class="text">
+              Tired of "feat: add stuff"? This AI is trained on 1000+ Stack
+              Overflow answers and passive-aggressive Slack messages. Results
+              are... unique.
+            </p>
+            <div class="card-actions">
+              <i class="far fa-star"></i>
+
+              <i class="far fa-eye"></i>
+
+              <i class="fas fa-code-branch"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="trending">
+        <h3>Announcements</h3>
+        <div class="news-list">
+          <div class="news-list-item">
+            <h4>New JS Framework Alert!</h4>
+            <p class="text">
+              Another day, another JavaScript framework. Introducing
+              `Anxiety.js` – promises to solve all your problems by adding more
+              layers of abstraction!
+            </p>
+          </div>
+          <div class="news-list-item">
+            <h4>Legacy Code Migration Weekend</h4>
+            <p class="text">
+              Join us this Saturday for a thrilling adventure into the 2008
+              codebase. Bring your debugging hats and strong coffee. Free pizza
+              (and existential dread) provided.
+            </p>
+          </div>
+          <div class="news-list-item">
+            <h4>'Are Tabs or Spaces Better?' Debate</h4>
+            <p class="text">
+              The annual company-wide debate on code formatting is happening
+              Friday. Prepare your arguments and avoid eye contact with anyone
+              holding a pitchfork.
+            </p>
+          </div>
+        </div>
+        <h3>Trending</h3>
+        <div class="user-list">
+          <div class="user">
+            <img src="lego1.jpg" alt="Trending User Avatar" />
+            <div>
+              <p class="username">@tete</p>
+              <p class="description">charmi is the best</p>
+            </div>
+          </div>
+          <div class="user">
+            <img src="lego2.jpg" alt="Trending User Avatar" />
+            <div>
+              <p class="username">@rati</p>
+              <p class="description">Super Cool app</p>
+            </div>
+          </div>
+          <div class="user">
+            <img src="lego3.jpg" alt="Trending User Avatar" />
+            <div>
+              <p class="username">@ngundu</p>
+              <p class="description">Life Changing App</p>
+            </div>
+          </div>
+          <div class="user">
+            <img src="lego4.jpg" alt="Trending User Avatar" />
+            <div>
+              <p class="username">@masvora</p>
+              <p class="description">No Traffic Maker</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
